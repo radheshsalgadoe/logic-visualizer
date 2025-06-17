@@ -1,3 +1,4 @@
+import Title from "@/components/text/Title";
 
 export default function Home() {
   return (
@@ -7,14 +8,7 @@ export default function Home() {
     min-h-screen
     items-center
     ">
-      <h1 className="
-      flex-1 
-      text-center
-      text-8xl
-      font-courier-prime
-      ">
-        <span className="bg-yellow-300">L</span>ogic <span className="bg-yellow-300">V</span>isualizer
-      </h1>
+      <Title size={"8xl"}/>
     </main>
   );
 }
